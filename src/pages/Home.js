@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 
 export default () => (
   <div>
-    Home
-    <Link to="/about"> About</Link>
+    <Link to="/">Home</Link> - 
+    <Link to="/private">Private</Link> - 
+    <Link to="/about">About</Link>
+    <h1>Home</h1>
   </div>
 )
+
