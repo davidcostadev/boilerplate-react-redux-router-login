@@ -1,7 +1,7 @@
 {
-  "name": "carrominutoavaliadorreact",
+  "name": "boilerplatereactreduxrouterlogin",
   "version": "1.0.0",
-  "description": "react todo application",
+  "description": "boilerplatereactreduxrouterlogin application",
   "main": "src/main.js",
   "dependencies": {
     "axios": "^0.17.0",
