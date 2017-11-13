@@ -1,0 +1,46 @@
+{
+  "name": "carrominutoavaliadorreact",
+  "version": "1.0.0",
+  "description": "react todo application",
+  "main": "src/main.js",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "bootstrap": "4.0.0-beta",
+    "classnames": "^2.2.5",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "http-server": "^0.10.0",
+    "node-sass": "^4.5.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "sass-loader": "^6.0.6",
+    "scss-loader": "0.0.1",
+    "webpack": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.0",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "scripts": {
+    "dev": "node build/server",
+    "start": "npm run build && http-server dist",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "todo"
+  ],
+  "author": "David Costa",
+  "license": "MIT"
+}
